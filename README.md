@@ -29,23 +29,30 @@ _What happens when a machine dreams to music?_
 
 ## 🚀 Getting Started
 
-```bash
 git clone https://github.com/yourusername/phosphor.git
+
 cd phosphor
+
 pip install -r requirements.txt
+
 python3 launch.py
 
-Make sure your DMX controller is connected and your fixture is addressed properly in config.json. WLED devices should be discoverable via mDNS or set via IP.
+_Make sure your DMX controller is connected and your fixture is addressed properly in config.json. WLED devices should be discoverable via mDNS or set via IP._
 
 ---
 
 ## 📦 Folder Structure
 
 phosphor/
+
 ├── core/           # Signal processing + control logic
+
 ├── ui/             # Touchscreen interface & local preview
+
 ├── output/         # DMX, Art-Net, and WLED backends
+
 ├── assets/         # Sample loops, config files, docs
+
 └── launch.py       # Main runtime entry point
 
 ---
@@ -63,7 +70,9 @@ phosphor/
 ## 📸 Demo
 
 🌐 Watch the 60-second video: koanzone.net/phosphor/demo
+
 📷 Shot at Northerly Island, Chicago
+
 💡 Featuring WLED HyperCube + PAR light + music-reactive controller
 
 ---
@@ -80,6 +89,7 @@ phosphor/
 ## 🤝 Credits
 
 Designed and engineered by Jeffrey Ege‑Koç Metzel
+
 With help from Echo, the machine in the margins.
 
 ---
