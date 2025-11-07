@@ -69,7 +69,7 @@ phosphor/
 
 ## 📸 Demo
 
-🌐 Watch the 60-second video: koanzone.net/phosphor/demo
+🌐 Watch the 60-second video: https://koanzone.net/phosphor/demo
 
 📷 Shot at Northerly Island, Chicago
 
